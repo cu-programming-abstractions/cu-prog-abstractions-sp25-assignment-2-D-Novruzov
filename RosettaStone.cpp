@@ -1,3 +1,4 @@
+
 #include <cmath>
 #include "RosettaStone.h"
 #include "GUI/SimpleTest.h"
@@ -84,24 +85,9 @@ double cosineSimilarityOf(const Map<string, double>& lhs, const Map<string, doub
         }
     }
     return sum;
+
+
 }
-
-string guessLanguageOf(const Map<string, double>& textProfile,
-                       const Set<Corpus>& corpora) {
-    if(corpora.isEmpty()) {error("there are no languages in the corpora");}
-    //we can use priority queue to store the consinme similarity
-    PriorityQueue<string> pq;
-    for(Corpus element : corpora) {
-        double cosine = cosineSimilarityOf(textProfile, element.profile);
-        pq.enqueue(element.name, -cosine);
-    }
-    string language = pq.dequeue();
-    return language;
-}
-
-
-
-
 /* * * * *   Test Cases Below This Point   * * * * */
 
 

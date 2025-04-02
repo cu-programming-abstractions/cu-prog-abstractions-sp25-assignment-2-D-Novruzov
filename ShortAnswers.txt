@@ -1,3 +1,4 @@
+
 Q1:Example 1: Excerpt from The Catcher in the Rye by J.D. Salinger
 "What I was really hanging around for, I was trying to feel some kind of a good-by. I mean I’ve left schools and places I didn’t even know I was leaving them. I hate that. I don’t care if it’s a sad good-by or a bad good-by, but when I leave a place I like to know I’m leaving it. If you don’t, you feel even worse."
 
@@ -12,6 +13,8 @@ These texts vary greatly from Bible translations. The excerpt of the Salinger is
 
 
 
+
+
 Q2:"He’s choking! Somebody do the Heimlich, fast!"
 Since Wikipedia articles are written in a formal, encyclopedia style, the translation app can struggle with urgency, informal phrases and essential tones. Instead of expressing the situation of immediate life-threatening, it can produce a very formal or unclear translation, such as:
 
@@ -22,20 +25,29 @@ This can be dangerous in a real emergency, where clarity and speed are important
 
 
 
+
+
 Q3:
+
 Possible benefits of including limited texts as training data
 Including limited texts in training data can improve the ability of the program to handle specific writing styles, making translations more accurate for users relying on those texts. For example, if the texts include emergency instructions, contingency speech, or legal documents, the program may better translate the language used in high-daco or special contexts. This will benefit emergency respondents, international legal professionals and everyday users who require a clear translation of informal speech. Additionally, incorporating diverse writing styles can help understand the program to understand regional dialects, idioms and cultural nuances, which improves access to non-country speakers. A more adaptable translation system will be particularly valuable for those in passengers, multilingual workers and cross-cultural communication settings
 
 
 
+
 Q4:
+
 Possible downside to include limited texts as training data
 An important negative side is that limited texts can introduce prejudices or discrepancies if they are not well balanced with extensive linguistic data. For example, if the texts emphasize casual speech, the program can struggle with formal or technical language, which can lead to incorrect translations in professional settings. Users who rely on accurate words, such as academics, scientific and diplomat, can be negatively affected by highly informal or incompatible translations.
 
 
 
+
 Q5:
+
 To maximize the benefits while reducing the loss, limited texts must be complemented rather than the primary source of training data. They should be carefully integrated with a broad, diverse corpus to ensure that the translation model can effectively handle both formal and informal language. Additionally, weighing the training process to identify when suitable for some styles (for example, prioritizing clarity in emergency translations but allowing informal language in emergency interactions) can help reduce potential downside. If errors or discrepancies are present in limited texts, they should be reviewed and cured before including. A balanced approach will increase the adaptability of the model without compromising accuracy in important contexts
+
+
 
 
 

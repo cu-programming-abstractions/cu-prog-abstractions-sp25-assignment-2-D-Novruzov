@@ -1,11 +1,14 @@
 #include "RisingTides.h"
+
 #include "gridlocation.h"
 #include "queue.h"
+
 using namespace std;
 
 Grid<bool> floodedRegionsIn(const Grid<double>& terrain,
                             const Vector<GridLocation>& sources,
-                            double height) {
+                         double height) {
+
 
     Queue<GridLocation> q = {};
     Grid<bool> flooded(terrain.numRows(), terrain.numCols(), false);
